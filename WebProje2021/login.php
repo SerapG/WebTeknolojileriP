@@ -15,7 +15,7 @@ if(!empty($username) and !empty($password)){
         $_SESSION["user"] = $username;
         $_SESSION["pass"] = $password;
         echo "Hoşgeldin  &ensp;    &ensp;  ";echo  $username;
-        header("Refresh: 2; url=index.html");
+        header("Refresh: 2; url=Hakkımda.html");
     }
     else{
         $_SESSION["login"] = "false";
