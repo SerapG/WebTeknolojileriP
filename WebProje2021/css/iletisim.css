@@ -48,7 +48,21 @@ body{
   resize: none;
   height: 80px;
 }
-
+.wrapper .btn #reset{
+	float: right;
+	 border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #343a40;
+  color: #ffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
 .wrapper .btn input[type="submit"]{
   border: 0px;
   margin-top: 15px;
